@@ -1,0 +1,203 @@
+.form{
+
+    display: block;
+    background-image: linear-gradient(to bottom, #2c2b2e, black);
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    min-width: 400px;
+    height: auto;
+    margin: auto;
+    padding-bottom: 1.2em;
+
+}
+.box-form{
+
+    background-color: white;
+    width:20% ;
+    height:20% ;
+
+}
+.text-login{
+
+    width: 80%;
+    color: #dbdbdb;
+    font-family: nav-font;
+    font-size: large;
+    text-align: center;
+    margin:20px auto auto auto;
+
+}
+.form-name{
+
+    margin: 10px auto;
+    min-width: 200px;
+    max-width: 400px;
+    text-align: center;
+
+}
+.form-name>input{
+
+    outline:none ;
+    color: rgb(100, 98, 104);
+    background-color: transparent;
+    text-transform: uppercase;
+    font-family:nav-font;
+    text-align: center;
+    font-size: 16px;
+    width: 80%;
+    padding: 1em 0px;
+    border-radius: 10px;
+    border: solid #646268 1px;
+
+}
+.form-senha{
+
+    margin: 10px auto;
+    min-width: 200px;
+    max-width: 400px;
+    text-align: center;
+
+}
+.form-senha>input{
+
+    outline:none ;
+    color: rgb(100, 98, 104);
+    background-color: transparent;
+    font-family:nav-font;
+    text-align: center;
+    font-size: 16px;
+    width: 80%;
+    padding: 1em 0px;
+    border-radius: 10px;
+    border: solid rgb(100, 98, 104) 1px;
+
+}
+.form-data{
+
+    display: flex;
+    margin: 20px auto;
+    width:320px ;
+    justify-content: space-around;
+    border-radius: 10px;
+    border: solid rgb(100, 98, 104) 1px;
+    padding: 1em 0px;
+
+}
+.text-data{
+
+    font-family: nav-font;
+    width: 90%;
+    color: #dbdbdb;
+    font-size: large;
+    text-align: center;
+    margin:20px auto auto auto;
+
+}
+.form-data_dia{
+
+    color: rgb(100, 98, 104);
+    outline: none;
+    background-color: transparent;
+    border: none;
+    border-right:solid rgb(100, 98, 104) 1px ;
+
+}
+.form-data_mes{
+
+    color: rgb(100, 98, 104);
+    outline: none;
+    background-color: transparent;
+    border: none;
+
+}
+.form-data_ano{
+
+    color: rgb(100, 98, 104);
+    outline: none;
+    background-color: transparent;
+    border: none;
+    border-left:solid rgb(100, 98, 104) 1px  ;
+
+}
+.text-genero{
+
+    font-family: nav-font;
+    width: 90%;
+    color: #dbdbdb;
+    font-size: large;
+    text-align: center;
+    margin:20px auto;
+
+}
+.form-genero{
+
+    display: flex;
+    color: rgb(100, 98, 104);
+    font-family: nav-font;
+    justify-content: space-around;
+    text-align: center;
+    width: 320px;
+    margin: 10px auto;
+    border:solid rgb(100, 98, 104) 1px ;
+    border-radius: 10px;
+
+}
+.form-genero_masculino{
+
+    margin: 10px;
+
+}
+.form-genero_masculino>p{
+
+    margin-bottom: 4px;
+
+}
+.form-genero_masculino>input{
+
+    display: block;
+    margin: auto;
+
+}
+.form-genero_feminino{
+
+    margin: 10px;
+
+}
+.form-genero_feminino>p{
+
+    margin-bottom: 4px;
+
+}
+.form-genero_feminino>input{
+
+    display: block;
+    margin: auto;
+
+}
+.form-btn_login{
+
+    font-family: nav-font;
+    color: #dbdbdb;
+    width: 160px;
+    margin: auto;
+    background-color: transparent;
+    border-radius: 10px;
+    border:solid #646268 1px ;
+
+}
+.form-btn_login>p{
+
+    text-align: center;
+    padding: .6em;
+
+}
+.form-btn_login:hover{
+
+    transition: .4s;
+    background-color: #646268;
+    color: black;
+
+}
+

@@ -1,0 +1,235 @@
+*{
+
+    margin: 0;
+
+}
+::-webkit-scrollbar{
+
+    width: 0;
+
+}
+@font-face{
+
+    font-family: font-text;
+    src: url("fonts/Steudel/SteudelMonoDisplay-Regular.ttf") format('truetype');
+
+}
+@font-face{
+
+    font-family: nav-font;
+    src: url("fonts/Inversion/Inversionz.ttf") format("truetype");
+
+}
+.text-black{
+
+    color: black;
+
+}
+.text-white{
+
+    color: white;
+    
+}
+.text-center{
+
+    text-align: center;
+
+}
+body{
+
+    margin: 0;
+    background: black;
+
+}
+.vertical-border{
+
+    border-left:solid #646264 1px ;
+    border-right:solid #646264 1px ;
+
+}
+.main-container{
+
+    display: block;
+    width:100% ;
+    height: calc(100vh - 65px) ;
+    padding: 0px;
+    margin: 56px auto 8px auto;
+    background-image:linear-gradient(to right, black, rgb(31, 31, 32), black);
+
+}
+.main-container_home{
+
+    display: inline-grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 8px;
+    padding:0 ;
+    margin: 56px auto 8px auto;
+    width:100% ;
+    height:100vh ;
+    background-image:linear-gradient(to right, black, rgb(31, 31, 32), black);
+
+}
+.main-container_home>h1{
+
+    margin-top:4px ;
+    font-family: font-text;
+    font-size: 2em;
+    font-weight: lighter;
+
+}
+.main-container_home>h3{
+
+    font-family: font-text;
+    font-size: 1em;
+    font-weight: lighter;
+
+}
+.main-container_home>p{
+
+    margin-top: 10px;
+
+}
+
+.container{
+
+    padding:0 ;
+    margin-bottom:8px;
+    width:96% ;
+    height:80vh ;
+    background-image:linear-gradient(to right, black, #1f1f20, black);
+    border-bottom: solid rgb(212, 212, 212) 1px;
+    
+}
+.chat{
+
+    display: grid;
+    height: 480px;
+    grid-template-rows: 8fr 1fr;
+    grid-template-columns: auto;
+    background-image:linear-gradient(to right, black, rgb(13, 13, 14), black);
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border: solid rgb(100, 98, 104) 1px;
+
+}
+.chat-info{
+
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr 2fr 2fr;
+    background-color: rgb(31, 31, 32);
+    width: 100%;
+    height: 40px;
+    gap: 8px;
+    border-bottom: solid #646268 1px;
+    justify-items: center;
+    align-items: center;
+
+}
+.chat-info_container-1{
+
+    grid-column: 1;
+    width: 98%;
+    height: 80%;
+    margin-left:8px ;
+    border:solid #646268 1px;
+
+}
+.chat-info_container-2{
+
+    width: 98%;
+    height: 80%;
+    grid-column: 2;
+    border:solid #646268 1px;
+    
+}
+.chat-info_container-3{
+
+    grid-column: 3;
+    margin: auto;
+    
+}
+.chat-info_container-4{
+
+    width: 98%;
+    height: 80%;
+    grid-column: 4;
+    border:solid #646268 1px;
+    
+}
+.chat-info_container-5{
+
+    width: 98%;
+    height: 80%;
+    margin-right:8px ;
+    grid-column: 5;
+    border:solid #646268 1px;
+    
+}
+.grupo{
+
+    background-image:linear-gradient(to right, black, rgb(13, 13, 14), black);
+    width: calc(100% - 2px);
+    height: calc(100% - 2px);
+    margin-bottom: 4px;
+    border: solid rgb(100, 98, 104) 1px;
+
+
+}
+.perfis{
+
+    grid-column: 2;
+    background-image:linear-gradient(to right, black, rgb(13, 13, 14), black);
+    width: calc(100% - 2px);
+    height: calc(100% - 2px);
+    border: solid rgb(100, 98, 104) 1px;
+
+}
+.undefined{
+
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-image:linear-gradient(to right, black, rgb(13, 13, 14), black);
+    width: calc(100% - 2px);
+    height: calc(250px - 2px);
+    border: solid rgb(100, 98, 104) 1px;
+
+}
+.msg-send{
+
+    margin:auto ;
+    text-align: center;
+    display: flex;
+    position: relative;
+    width: 96%;
+    border: solid rgb(100, 98, 104) 2px;
+    border-radius: 20px;
+
+}
+.msg-send_input{
+
+    outline:none ;
+    background-color: #1f1f20;
+    padding: 0.6em;
+    width: 100%;
+    border-radius: 20px 0px 0px 20px;
+    border-style: none;
+    color: white;
+
+}
+.msg-send_button{
+
+    width: 10%;
+    border: none;
+    border-left: solid rgb(100, 98, 104) 2px;
+    background-color: #1f1f20;
+    color: white;
+    border-radius: 0px 20px 20px 0px;
+
+}
+.msg-send_button:hover{
+
+    background-color: #1f1f2046;
+    color: rgba(255, 255, 255, 0.199);
+
+}
